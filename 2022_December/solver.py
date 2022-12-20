@@ -48,8 +48,6 @@ def solve(sidedBox):
     Main solution initiator
     """
 
-    #sidedBox = ["hou","wcr","tka","nbl"]
-
     ### Initialize entry parameters:
     combinedLetters = str()
     for iSide in sidedBox:
@@ -60,7 +58,6 @@ def solve(sidedBox):
     entireWords = initializeDictionary()
     usefulWords = wordsReducer(sidedBox, entireWords)
     usefulWords = removeUnwantedCharacter(usefulWords)
-
 
     ### Make list of Playable Words from usefulWords
     # EntireWords = all words in word list
