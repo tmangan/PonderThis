@@ -26,7 +26,7 @@ def main():
     alphabet = "abcdefghijklmnopqrstuvwxyz"
     matrixBoxes = makeReadableBoxes(makeScrambledPartition(alphabet))
 
-    ### Loop through Boxes and print if there is between 2 and 5 solutions
+    ### Loop through Boxes and print if there is exactly one solution
     for iSidedBox in matrixBoxes:
         solutions = solve(iSidedBox)
         if solutions == 1:
