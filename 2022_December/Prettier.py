@@ -19,3 +19,7 @@ def outroPrinter():
 ================== END ====================
 
 """)
+    return None
+
+if __name__ == "__main__":
+    return None

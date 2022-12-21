@@ -5,17 +5,14 @@ from solver import *
 
 def boxify(twoSolve: str) -> list[str]:
     """
-    interprets the string "asdfasdfg" into ["asd","fgh","fgh","fdg"]
+    interprets the string "abcdefghijkl" into ["abc","def","ghi","jkl"]
     """
-
 
     outgoing = []
     for side in [0,3,6,9]:
         outgoing += [twoSolve[side : side + 3]]
 
     return outgoing
-
-
 
 
 def main():
