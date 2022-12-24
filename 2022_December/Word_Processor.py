@@ -84,5 +84,8 @@ def wordCombiner(combinedLetters: str, playableWords: list[str]) -> bool:
     return dictTwoSolves
 
 
-if __name__ == "__main__":
+def main():
     return None
+
+if __name__ == "__main__":
+    main()
