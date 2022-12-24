@@ -91,7 +91,7 @@ def solve(sidedBox):
 
 
 if __name__ == "__main__":
-    sidedBox = ["sbi","ath","ndg","orw"]
+    sidedBox = ["tqy","rua","exw","nif"]
     print(solve(sidedBox))
     #main()
 

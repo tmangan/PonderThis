@@ -11,7 +11,6 @@ def introPrinter():
 #############################################
 
 """)
-    return None
     
 def outroPrinter():
     print("""
@@ -19,7 +18,3 @@ def outroPrinter():
 ================== END ====================
 
 """)
-    return None
-
-if __name__ == "__main__":
-    return None
