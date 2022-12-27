@@ -74,7 +74,7 @@ def solve(sidedBox):
     
     ### TOGGLE FOR SOLUTION PRINTING
     ### Show top scoring words from scorer.py:
-    #topScoringWords(combinedLetters, dictWordScores)
+    topScoringWords(combinedLetters, dictWordScores)
 
     ### Combine two words into new dictionary:
     dictTwoSolves =  wordCombiner(combinedLetters, playableWords)
@@ -86,12 +86,13 @@ def solve(sidedBox):
     ### Prints the number of TwoSolutions
     #print("Number of 2-Solves: ", len(dictTwoSolves))
 
+    #return topScoringWords
     return dictTwoSolves 
     #return len(dictTwoSolves)
 
 
 if __name__ == "__main__":
-    sidedBox = ["tqy","rua","exw","nif"]
+    sidedBox = ["ion","abc","elt","khr"]
     print(solve(sidedBox))
     #main()
 

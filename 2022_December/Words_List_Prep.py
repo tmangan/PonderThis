@@ -50,8 +50,8 @@ def initializeDictionary() -> list[str]:
     Takes the words.txt file, opens it, and assigns it to a list called entireWords 
     """
         
-    #words = open("/usr/share/dict/american-english", "r")
-    words = open("words", "r")
+    words = open("/usr/share/dict/american-english", "r")
+    #words = open("words", "r")
     entireWords = list()
 
     ### Make the words list easier to use
